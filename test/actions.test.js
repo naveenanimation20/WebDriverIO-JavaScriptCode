@@ -20,32 +20,32 @@ describe("page actions Features", function(){
         browser.pause(3000);
     });
 
-    // it("KEYS action perform Shift", function(){
-    //     browser.url("http://the-internet.herokuapp.com/key_presses?");
-    //     spicejetPage.enterSearch("Shift");
-    //     const text = spicejetPage.getResultLabelText();
-    //     console.log(text);
-    //     assert.equal("You entered: SHIFT", text);
-    //     browser.pause(3000);
-    // });
+    it("KEYS action perform Shift", function(){
+        browser.url("http://the-internet.herokuapp.com/key_presses?");
+        spicejetPage.enterSearch("Shift");
+        const text = spicejetPage.getResultLabelText();
+        console.log(text);
+        assert.equal("You entered: SHIFT", text);
+        browser.pause(3000);
+    });
 
-    // it("KEYS action perform F1", function(){
-    //     browser.url("http://the-internet.herokuapp.com/key_presses?");
-    //     spicejetPage.enterSearch("F1");
-    //     const text = spicejetPage.getResultLabelText();
-    //     console.log(text);
-    //     assert.equal("You entered: F1", text);
-    //     browser.pause(3000);
-    // });
+    it("KEYS action perform F1", function(){
+        browser.url("http://the-internet.herokuapp.com/key_presses?");
+        spicejetPage.enterSearch("F1");
+        const text = spicejetPage.getResultLabelText();
+        console.log(text);
+        assert.equal("You entered: F1", text);
+        browser.pause(3000);
+    });
 
-    // it("KEYS action perform F1", function(){
-    //     browser.url("http://the-internet.herokuapp.com/key_presses?");
-    //     spicejetPage.enterSearch("F1");
-    //     const text = spicejetPage.getResultLabelText();
-    //     console.log(text);
-    //     assert.equal("You entered: F1", text);
-    //     browser.pause(3000);
-    // });
+    it("KEYS action perform F1", function(){
+        browser.url("http://the-internet.herokuapp.com/key_presses?");
+        spicejetPage.enterSearch("F1");
+        const text = spicejetPage.getResultLabelText();
+        console.log(text);
+        assert.equal("You entered: F1", text);
+        browser.pause(3000);
+    });
 
    
 
