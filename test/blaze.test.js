@@ -1,6 +1,6 @@
 const blazePage = require("../pages/blazemeter")
 
-describe("blaze page elements handle", function(){
+describe("blaze page elements handle on the page", function(){
 
     it("get texts of all main links", function(){
         browser.url('https://www.blazemeter.com/');
