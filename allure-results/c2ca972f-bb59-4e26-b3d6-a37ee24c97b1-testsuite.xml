@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583427970095' stop='1583427973623'>
+    <name>blaze page elements actions</name>
+    <title>blaze page elements actions</title>
+    <test-cases>
+        <test-case start='1583427970096' status='failed' stop='1583427973622'>
+            <name>check page url</name>
+            <title>check page url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'https://www.facebook.com/' to equal 'https://www.blazemeter.com/'</message>
+                <stack-trace>AssertionError: expected 'https://www.facebook.com/' to equal 'https://www.blazemeter.com/'
+                    at Context.&lt;anonymous> (/Users/NaveenKhunteta/Documents/WebDriver-IO-Scripts/test/elements/url.test.js:6:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583427970102' stop='1583427994323'>
+    <name>blaze page elements actions</name>
+    <title>blaze page elements actions</title>
+    <test-cases>
+        <test-case start='1583427970102' status='passed' stop='1583427973125'>
+            <name>check page url</name>
+            <title>check page url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583427973126' status='broken' stop='1583427983724'>
+            <name>verify main header text</name>
+            <title>verify main header text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "ul.list-nav-links li:nth-child(11111) a" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "ul.list-nav-links li:nth-child(11111) a" because element wasn't found
+                    at Context.&lt;anonymous> (/Users/NaveenKhunteta/Documents/WebDriver-IO-Scripts/test/elements/elementActions.test.js:14:38)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583427983725' status='broken' stop='1583427994322'>
+            <name>click on product link</name>
+            <title>click on product link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "ul.list-nav-links li:nth-child(11111) a" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "ul.list-nav-links li:nth-child(11111) a" because element wasn't found
+                    at Context.&lt;anonymous> (/Users/NaveenKhunteta/Documents/WebDriver-IO-Scripts/test/elements/elementActions.test.js:19:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
