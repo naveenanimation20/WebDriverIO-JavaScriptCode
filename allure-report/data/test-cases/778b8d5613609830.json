@@ -1,0 +1,58 @@
+{
+  "uid" : "778b8d5613609830",
+  "name" : "do drag and drop",
+  "fullName" : "drag and drop actions feature.do drag and drop",
+  "historyId" : "7cd9409022ee9e238c91c391ac071902",
+  "time" : {
+    "start" : 1588553461882,
+    "stop" : 1588553467839,
+    "duration" : 5957
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "drag and drop actions feature"
+  }, {
+    "name" : "testClass",
+    "value" : "drag and drop actions feature"
+  }, {
+    "name" : "testMethod",
+    "value" : "do drag and drop"
+  }, {
+    "name" : "package",
+    "value" : "drag and drop actions feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "778b8d5613609830.json",
+  "parameterValues" : [ "chrome" ]
+}

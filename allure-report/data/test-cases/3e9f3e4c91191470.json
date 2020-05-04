@@ -1,0 +1,64 @@
+{
+  "uid" : "3e9f3e4c91191470",
+  "name" : "check checkbox page url",
+  "fullName" : "handling checkboxes.check checkbox page url",
+  "historyId" : "5c2c02a2def342e69dad45c2bc83a171",
+  "time" : {
+    "start" : 1588553449648,
+    "stop" : 1588553460010,
+    "duration" : 10362
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"ul li:nth-child(6) a\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"ul li:nth-child(6) a\") still not displayed after 10000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at InternetPage.clickOnLink (/Users/pramodmallick/Working/WebdriverIO/WebDriverIO-AllureHTMLReport/pages/internetpage.js:12:32)\n                    at Context.<anonymous> (/Users/pramodmallick/Working/WebdriverIO/WebDriverIO-AllureHTMLReport/test/checkbox.test.js:25:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "handling checkboxes"
+  }, {
+    "name" : "testClass",
+    "value" : "handling checkboxes"
+  }, {
+    "name" : "testMethod",
+    "value" : "check checkbox page url"
+  }, {
+    "name" : "package",
+    "value" : "handling checkboxes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3e9f3e4c91191470.json",
+  "parameterValues" : [ "chrome" ]
+}

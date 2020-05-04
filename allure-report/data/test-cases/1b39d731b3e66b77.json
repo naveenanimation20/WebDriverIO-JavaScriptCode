@@ -1,0 +1,48 @@
+{
+  "uid" : "1b39d731b3e66b77",
+  "name" : "should scroll to forgot pwd link",
+  "fullName" : "scroll to element.should scroll to forgot pwd link",
+  "historyId" : "56b3772932a2552079bd38bd640fdbfd",
+  "time" : {
+    "start" : 1588553510690,
+    "stop" : 1588553510690,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "scroll to element"
+  }, {
+    "name" : "testClass",
+    "value" : "scroll to element"
+  }, {
+    "name" : "testMethod",
+    "value" : "should scroll to forgot pwd link"
+  }, {
+    "name" : "package",
+    "value" : "scroll to element"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b39d731b3e66b77.json",
+  "parameterValues" : [ ]
+}

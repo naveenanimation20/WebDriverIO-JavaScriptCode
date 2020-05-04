@@ -1,0 +1,58 @@
+{
+  "uid" : "6cf11d317bf19da",
+  "name" : "should wait for button to be disabled",
+  "fullName" : "wait for enabled case.should wait for button to be disabled",
+  "historyId" : "6d5c59611435aa7fb396714f90a276f0",
+  "time" : {
+    "start" : 1588553512040,
+    "stop" : 1588553515262,
+    "duration" : 3222
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-10"
+  }, {
+    "name" : "suite",
+    "value" : "wait for enabled case"
+  }, {
+    "name" : "testClass",
+    "value" : "wait for enabled case"
+  }, {
+    "name" : "testMethod",
+    "value" : "should wait for button to be disabled"
+  }, {
+    "name" : "package",
+    "value" : "wait for enabled case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6cf11d317bf19da.json",
+  "parameterValues" : [ "chrome" ]
+}

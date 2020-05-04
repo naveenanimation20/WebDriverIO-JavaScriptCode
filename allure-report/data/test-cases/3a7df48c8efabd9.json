@@ -1,0 +1,58 @@
+{
+  "uid" : "3a7df48c8efabd9",
+  "name" : "check page url",
+  "fullName" : "blaze page elements actions.check page url",
+  "historyId" : "cfe30f7114a63c7d6727b51aff20cc90",
+  "time" : {
+    "start" : 1583428077664,
+    "stop" : 1583428081179,
+    "duration" : 3515
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'https://www.facebook.com/' to equal 'https://www.blazemeter.com/'",
+  "statusTrace" : "AssertionError: expected 'https://www.facebook.com/' to equal 'https://www.blazemeter.com/'\n                    at Context.<anonymous> (/Users/NaveenKhunteta/Documents/WebDriver-IO-Scripts/test/elements/url.test.js:6:34)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "testMethod",
+    "value" : "check page url"
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a7df48c8efabd9.json",
+  "parameterValues" : [ "chrome" ]
+}

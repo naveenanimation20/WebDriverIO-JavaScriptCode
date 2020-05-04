@@ -1,0 +1,64 @@
+{
+  "uid" : "aaf5f335c3e691cb",
+  "name" : "click on product link",
+  "fullName" : "blaze page elements actions.click on product link",
+  "historyId" : "5dc84108152fcfd2e2bf289cb50d79a9",
+  "time" : {
+    "start" : 1583427983725,
+    "stop" : 1583427994322,
+    "duration" : 10597
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"ul.list-nav-links li:nth-child(11111) a\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"ul.list-nav-links li:nth-child(11111) a\" because element wasn't found\n                    at Context.<anonymous> (/Users/NaveenKhunteta/Documents/WebDriver-IO-Scripts/test/elements/elementActions.test.js:19:31)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on product link"
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "aaf5f335c3e691cb.json",
+  "parameterValues" : [ "chrome" ]
+}

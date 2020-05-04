@@ -1,0 +1,56 @@
+{
+  "uid" : "b7be1971fb44a9c",
+  "name" : "check page url",
+  "fullName" : "blaze page elements actions.check page url",
+  "historyId" : "cfe30f7114a63c7d6727b51aff20cc90",
+  "time" : {
+    "start" : 1583429724300,
+    "stop" : 1583429726004,
+    "duration" : 1704
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "testMethod",
+    "value" : "check page url"
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7be1971fb44a9c.json",
+  "parameterValues" : [ "chrome" ]
+}

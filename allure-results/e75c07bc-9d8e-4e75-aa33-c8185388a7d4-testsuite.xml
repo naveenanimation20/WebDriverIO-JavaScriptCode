@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1588553383147' stop='1588553411168'>
+    <name>page actions Features</name>
+    <title>page actions Features</title>
+    <test-cases>
+        <test-case start='1588553383147' status='broken' stop='1588553396939'>
+            <name>move to element</name>
+            <title>move to element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("#ctl00_HyperLinkLogin") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("#ctl00_HyperLinkLogin") still not displayed after 10000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Spicejet.moveToElement (/Users/pramodmallick/Working/WebdriverIO/WebDriverIO-AllureHTMLReport/pages/actions.page.js:21:17)
+                    at Context.&lt;anonymous> (/Users/pramodmallick/Working/WebdriverIO/WebDriverIO-AllureHTMLReport/test/actions.test.js:8:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1588553396940' status='passed' stop='1588553401213'>
+            <name>KEYS action perform Tab</name>
+            <title>KEYS action perform Tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1588553401213' status='passed' stop='1588553404536'>
+            <name>KEYS action perform Shift</name>
+            <title>KEYS action perform Shift</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1588553404536' status='passed' stop='1588553407849'>
+            <name>KEYS action perform F1</name>
+            <title>KEYS action perform F1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1588553407849' status='passed' stop='1588553411167'>
+            <name>KEYS action perform F1</name>
+            <title>KEYS action perform F1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

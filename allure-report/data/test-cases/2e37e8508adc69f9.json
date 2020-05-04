@@ -1,0 +1,58 @@
+{
+  "uid" : "2e37e8508adc69f9",
+  "name" : "get texts of all main links",
+  "fullName" : "blaze page elements handle on the page.get texts of all main links",
+  "historyId" : "f78448f2f7a3e0355a3f845e517b9cbd",
+  "time" : {
+    "start" : 1588553414107,
+    "stop" : 1588553415836,
+    "duration" : 1729
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements handle on the page"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle on the page"
+  }, {
+    "name" : "testMethod",
+    "value" : "get texts of all main links"
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle on the page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e37e8508adc69f9.json",
+  "parameterValues" : [ "chrome" ]
+}

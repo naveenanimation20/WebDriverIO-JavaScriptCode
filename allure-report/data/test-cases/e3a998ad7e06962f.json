@@ -1,0 +1,58 @@
+{
+  "uid" : "e3a998ad7e06962f",
+  "name" : "jmeter is displeyd in view port ",
+  "fullName" : "blaze page elements handle on the page.jmeter is displeyd in view port ",
+  "historyId" : "730f3a83fba56f0e006db3efa1fa0d9a",
+  "time" : {
+    "start" : 1588553415923,
+    "stop" : 1588553415959,
+    "duration" : 36
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements handle on the page"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements handle on the page"
+  }, {
+    "name" : "testMethod",
+    "value" : "jmeter is displeyd in view port "
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements handle on the page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3a998ad7e06962f.json",
+  "parameterValues" : [ "chrome" ]
+}

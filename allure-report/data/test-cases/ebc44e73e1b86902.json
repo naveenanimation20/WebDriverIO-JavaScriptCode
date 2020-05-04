@@ -1,0 +1,64 @@
+{
+  "uid" : "ebc44e73e1b86902",
+  "name" : "move to element",
+  "fullName" : "page actions Features.move to element",
+  "historyId" : "14cb1313f99f259ccb322c7428d5ca69",
+  "time" : {
+    "start" : 1588553383147,
+    "stop" : 1588553396939,
+    "duration" : 13792
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#ctl00_HyperLinkLogin\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"#ctl00_HyperLinkLogin\") still not displayed after 10000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Spicejet.moveToElement (/Users/pramodmallick/Working/WebdriverIO/WebDriverIO-AllureHTMLReport/pages/actions.page.js:21:17)\n                    at Context.<anonymous> (/Users/pramodmallick/Working/WebdriverIO/WebDriverIO-AllureHTMLReport/test/actions.test.js:8:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "page actions Features"
+  }, {
+    "name" : "testClass",
+    "value" : "page actions Features"
+  }, {
+    "name" : "testMethod",
+    "value" : "move to element"
+  }, {
+    "name" : "package",
+    "value" : "page actions Features"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ebc44e73e1b86902.json",
+  "parameterValues" : [ "chrome" ]
+}

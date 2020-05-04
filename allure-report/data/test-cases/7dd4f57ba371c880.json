@@ -1,0 +1,88 @@
+{
+  "uid" : "7dd4f57ba371c880",
+  "name" : "enter username",
+  "fullName" : "handle application login.enter username",
+  "historyId" : "4763f67a4f68af502f3f44b3a1f09240",
+  "time" : {
+    "start" : 1588553478683,
+    "stop" : 1588553489286,
+    "duration" : 10603
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#username\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"#username\") still not displayed after 10000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at LoginPage.enterUserName (/Users/pramodmallick/Working/WebdriverIO/WebDriverIO-AllureHTMLReport/pages/loginpage.js:8:23)\n                    at Context.<anonymous> (/Users/pramodmallick/Working/WebdriverIO/WebDriverIO-AllureHTMLReport/test/login.test.js:8:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-8"
+  }, {
+    "name" : "suite",
+    "value" : "handle application login"
+  }, {
+    "name" : "testClass",
+    "value" : "handle application login"
+  }, {
+    "name" : "testMethod",
+    "value" : "enter username"
+  }, {
+    "name" : "package",
+    "value" : "handle application login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f3d5d5bc6e04d6f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583408505036,
+        "stop" : 1583408508229,
+        "duration" : 3193
+      }
+    }, {
+      "uid" : "7250f1e2e1b5540",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583408292854,
+        "stop" : 1583408296089,
+        "duration" : 3235
+      }
+    }, {
+      "uid" : "7bf60aa70e560b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583407765596,
+        "stop" : 1583407768907,
+        "duration" : 3311
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7dd4f57ba371c880.json",
+  "parameterValues" : [ "chrome" ]
+}

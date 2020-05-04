@@ -1,0 +1,64 @@
+{
+  "uid" : "22f16eaac4a34ab0",
+  "name" : "wait for home page",
+  "fullName" : "wait until sync for the elements.wait for home page",
+  "historyId" : "c23846878e90234d6538d302e8671ef4",
+  "time" : {
+    "start" : 1588553538665,
+    "stop" : 1588553557134,
+    "duration" : 18469
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "waitUntil condition failed with the following reason: Can't call getText on element with selector \"h1.private-page__title\" because element wasn't found",
+  "statusTrace" : "Error: waitUntil condition failed with the following reason: Can't call getText on element with selector \"h1.private-page__title\" because element wasn't found\n                    at Context.<anonymous> (/Users/pramodmallick/Working/WebdriverIO/WebDriverIO-AllureHTMLReport/test/waits/waitUntil.test.js:19:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-12"
+  }, {
+    "name" : "suite",
+    "value" : "wait until sync for the elements"
+  }, {
+    "name" : "testClass",
+    "value" : "wait until sync for the elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "wait for home page"
+  }, {
+    "name" : "package",
+    "value" : "wait until sync for the elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "22f16eaac4a34ab0.json",
+  "parameterValues" : [ "chrome" ]
+}

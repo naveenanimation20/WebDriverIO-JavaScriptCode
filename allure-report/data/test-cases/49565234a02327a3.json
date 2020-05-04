@@ -1,0 +1,116 @@
+{
+  "uid" : "49565234a02327a3",
+  "name" : "check page url",
+  "fullName" : "blaze page elements actions.check page url",
+  "historyId" : "cfe30f7114a63c7d6727b51aff20cc90",
+  "time" : {
+    "start" : 1588553476522,
+    "stop" : 1588553477357,
+    "duration" : 835
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "testMethod",
+    "value" : "check page url"
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements actions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f33ed477fb680e07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583429788104,
+        "stop" : 1583429798437,
+        "duration" : 10333
+      }
+    }, {
+      "uid" : "1636272094e7c869",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583429771393,
+        "stop" : 1583429774181,
+        "duration" : 2788
+      }
+    }, {
+      "uid" : "7c91d6b23be953c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583429753665,
+        "stop" : 1583429756060,
+        "duration" : 2395
+      }
+    }, {
+      "uid" : "b7be1971fb44a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583429724300,
+        "stop" : 1583429726004,
+        "duration" : 1704
+      }
+    }, {
+      "uid" : "3a7df48c8efabd9",
+      "status" : "failed",
+      "statusDetails" : "expected 'https://www.facebook.com/' to equal 'https://www.blazemeter.com/'",
+      "time" : {
+        "start" : 1583428077664,
+        "stop" : 1583428081179,
+        "duration" : 3515
+      }
+    }, {
+      "uid" : "c67f84725b0b165",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583427970102,
+        "stop" : 1583427973125,
+        "duration" : 3023
+      }
+    }, {
+      "uid" : "a118f60a4e0cffb9",
+      "status" : "failed",
+      "statusDetails" : "expected 'https://www.facebook.com/' to equal 'https://www.blazemeter.com/'",
+      "time" : {
+        "start" : 1583427970096,
+        "stop" : 1583427973622,
+        "duration" : 3526
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49565234a02327a3.json",
+  "parameterValues" : [ "chrome" ]
+}
