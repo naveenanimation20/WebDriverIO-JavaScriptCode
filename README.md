@@ -1,6 +1,5 @@
 
-I have formed this repo as boilerplate project in May 2020, but could not execute it successfully due to few version mismatch issues and could not get the desired HTMl report output.
-So I refactor it and enahanced with few more lines of code.
+I have forked an existing repo and refactored it to add Allure HTML report.
 
 Below modificaiton done.
 
@@ -9,7 +8,7 @@ Below modificaiton done.
 3. Added env variables into the scripts for environment variable to 'qa' and added script to generate report.
     Pre-requiste: 
       Java version > 8 should be installed.
-      Install Allure (in MAC) => brew uninstall allure
+      Install Allure (in MAC) => brew install allure
       Install allure command line => npm install allure-commandline
 
 ### Run test
