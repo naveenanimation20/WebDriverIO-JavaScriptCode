@@ -4,8 +4,8 @@ I have forked an existing repo and refactored it to add Allure HTML report.
 Below modificaiton done.
 
 1. Updated latest chromedriver matching with my chrome version
-2. Added Allure command line tool and generated Allure html report for sample
-3. Added env variables into the scripts for environment variable to 'qa' and added script to generate report.
+2. Added Allure command line tool to package.json
+3. Added 'report' under scripts in package.json to generate the report.
     Pre-requiste: 
       Java version > 8 should be installed.
       Install Allure (in MAC) => brew install allure
