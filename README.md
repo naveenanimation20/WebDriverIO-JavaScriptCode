@@ -18,6 +18,7 @@ Below modificaiton done.
 
 ### Run test
 => npm install
+
 => ENV=qa npm test
 
 After test execution - 'allure-results' folder would be created in the project root.
