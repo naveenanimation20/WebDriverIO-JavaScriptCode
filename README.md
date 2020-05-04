@@ -13,7 +13,7 @@ Below modificaiton done.
       Install allure command line => npm install allure-commandline
 
 ### Run test
-=> npm test
+=> ENV=qa npm test
 
 After test finished - in the root, allure-results folder would be created.
 
