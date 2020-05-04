@@ -6,20 +6,25 @@ Below modificaiton done.
 1. Updated latest chromedriver matching with my chrome version
 2. Added Allure command line tool to package.json
 3. Added 'report' under scripts in package.json to generate the report.
-    Pre-requiste: 
+
+    Pre-requiste:
+    
       Java version > 8 should be installed.
+      
       Install Allure (in MAC) => brew install allure
+      
       Install allure command line => npm install allure-commandline
+
 
 ### Run test
 => ENV=qa npm test
 
-After test finished - in the root, allure-results folder would be created.
+After test execution - 'allure-results' folder would be created in the project root.
 
 ### Generate Allure HTML report
 => allure generate ./allure-results --clean
 
-After above command executes successfully, 'allure-report' folder would be created.
+After the command executed successfully, 'allure-report' folder would be created in the project root.
 
 ### Navigate to allure-report folder. Open html report
 
