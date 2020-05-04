@@ -1,4 +1,5 @@
-node_modules/
-allure-results/
-allure-report/
-allure-report/data/*
+node_modules
+allure-results
+allure-report
+yarn.lock
+package-lock.json
