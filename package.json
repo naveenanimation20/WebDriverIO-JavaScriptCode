@@ -6,7 +6,9 @@
   "scripts": {
     "test": "node ./node_modules/.bin/wdio ./wdio.conf.js",
     "elements": "./node_modules/.bin/wdio ./wdio.conf.js --suite elements",
-    "waits": "./node_modules/.bin/wdio ./wdio.conf.js --suite waits"
+    "waits": "./node_modules/.bin/wdio ./wdio.conf.js --suite waits",
+    "report": "allure generate ./allure-results --clean && allure open ./allure-report"
+
   },
   "author": "Naveen Khunteta",
   "license": "ISC",
