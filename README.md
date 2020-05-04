@@ -31,4 +31,8 @@ After the command executed successfully, 'allure-report' folder would be created
 => allure open ./allure-report
 
 
+
+Sample screenshot
+
+
 <img width="1242" alt="Allure html report" src="https://user-images.githubusercontent.com/38261145/80930363-091c6000-8dab-11ea-89d4-59f6d89792de.png">
