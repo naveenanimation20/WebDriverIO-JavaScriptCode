@@ -1,4 +1,4 @@
-const alertPage = require("/Users/NaveenKhunteta/Documents/WebDriver-IO-Scripts/pages/alertpage.js")
+const alertPage = require("../pages/alertpage")
 //import alertPage from '../pages/alertPage'
 
 describe("handle alert pop ups", function(){
@@ -11,7 +11,7 @@ describe("handle alert pop ups", function(){
         assert.equal('I am a JS Alert', alertText)
         browser.acceptAlert()
         console.log(alertPage.getResultText())
-        assert.equal('You successfuly clicked an alert',alertPage.getResultText())
+        assert.equal('You successfully clicked an alert',alertPage.getResultText())
         browser.pause(3000)
     })
 
