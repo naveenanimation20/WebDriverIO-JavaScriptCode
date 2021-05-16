@@ -1,4 +1,4 @@
-const blazePage = require("/Users/NaveenKhunteta/Documents/WebDriver-IO-Scripts/pages/blazemeter.js")
+const blazePage = require("../../pages/alertpage")
 
 
 describe("blaze page elements actions", function () {
