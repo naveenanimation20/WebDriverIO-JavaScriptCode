@@ -1,5 +1,5 @@
 # WebdriverIO Mocha Framework
-The project uses WebdriverIO and JavaScript. It includes examples of the PageObject pattern and some practical examples for different elemetn actions
+The project uses WebdriverIO and JavaScript. It includes examples of the PageObject pattern and some practical examples for different element actions
 
 ## Requirements
 -   node >= 12.18.x - [how to install Node](https://nodejs.org/en/download/)
